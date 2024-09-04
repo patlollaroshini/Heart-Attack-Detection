@@ -1,0 +1,29 @@
+.mb-3{
+    padding-left: 100px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+.form-group{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#txt{
+    font-size: 18px;
+    padding-left: 3px;
+}
+#txtt{
+    font-weight: 300;
+    padding-left: 30px;
+}
+#main{
+    padding-top: 30px;
+}
+#box{
+    box-shadow: 8px 8px 1px 1px rgba(0, 0, 0, 0.42);
+
+}
+#head{
+    margin: 0;
+    align-items: center;
+    padding-left: 270px;
+}

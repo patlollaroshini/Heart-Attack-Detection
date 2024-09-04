@@ -1,0 +1,96 @@
+.form-group{
+    /* padding-left: 100px;
+    padding-right: 100px;
+    margin: 100px; */
+    color:rgb(0, 0, 0);
+    /* min-height: 100%; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#body{
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+
+    height: 170%;
+}
+.heartbeat-bg {
+    /* background-image: url('../assest/line.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding-top: 0px;
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+    /* filter: brightness(20%); */
+    min-height: 170%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.heartbeat-bg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assest/line.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    padding-top: 0px;
+    background-attachment: fixed; 
+    min-height: 170%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(20%);
+    z-index: -1; /* Ensure the background overlay stays behind all other content */
+}
+
+.transparent-card {
+    background: rgba(255, 255, 255, 0.627); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    position: relative; /* Make sure the card content stays above the overlay */
+    z-index: 1;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#trestbps,#age,#cp{
+    border-radius: 10px;
+
+}
+#chol{
+    border-radius: 10px;
+}
+#thalach{
+    border-radius: 10px;
+}
+#oldpeak{
+    border-radius: 10px;
+}
+#slope{
+    border-radius: 10px;
+}#ca,#thal{
+    border-radius: 10px;
+}
+.info-icon {
+    margin-left: 10px;
+    color: #343435; /* Adjust color as needed */
+    text-decoration: none;
+}
+
+.info-icon i {
+    font-size: 18px; /* Adjust size as needed */
+}
+
+.info-icon:hover {
+    color: #b30000; /* Color change on hover */
+}

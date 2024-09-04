@@ -1,0 +1,49 @@
+/* Navbar.css */
+
+.header-bg {
+    /* background: url('../assest/bg1.jpg') no-repeat center center; */
+    background-size: cover;
+    color: #c20000;
+    padding: 5rem 0;
+    text-align: center;
+  }
+ 
+  .header-bg .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+    #asic-navbar-nav:hover {
+      color: red;
+      cursor: pointer;
+    }
+  
+  .cta-section {
+    background-color: #ffffff;
+    padding: 4rem 0;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-section .btn-secondary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .cta-section .btn-secondary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  /* .navbar {
+    background-color: transparent !important;
+  } */
+  
+  

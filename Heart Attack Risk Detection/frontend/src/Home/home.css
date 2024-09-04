@@ -1,0 +1,75 @@
+/* Navbar.css */
+
+.carousel-container {
+    width: 90%;
+    height:410px;
+    padding-bottom: 50px;
+    max-width: 90%; /* Adjust as needed */
+    /* margin-bottom: 1px ; */
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.63);
+    border-radius: 20px;
+  }
+  /* home.css */
+
+
+  .carousel-img {
+    width: 100%;
+    border-radius: px;
+    height: 410px; /* Set your desired fixed height */
+    object-fit:fill; /* Ensure the image covers the area without distortion */
+  }
+  .tee{
+    font-size: 50px;
+    font-weight: 900;
+    font-family:source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;}
+  .tee2{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Times New Roman", Times, serif;}
+  
+  .carousel-container{
+    height: 410px;
+    /* background-image: url('https://images.unsplash.com/photo-1473923377535-0002805f57e8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d239ac0e409e18cf74ace503c491714f&auto=format&fit=crop&w=1469&q=80'); */
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center top;
+    /* padding-top: 16px; */
+    /* padding-bottom: 1px; */
+    border-radius: 10px;
+  }
+  .some{
+    border: 1px solid black;
+  }
+  .p1{
+    font-family:source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;}
+  
+  /* Add this to your home.css file */
+  body {
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    background-color: #000000;
+}
+
+.footer-content h2 {
+    color: #fff;
+}
+
+.footer-content h5,
+.footer-content p,
+.footer-links a {
+    color: #fff;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer hr {
+    background-color: #fff;
+}
+#passa{
+color:rgb(0, 0, 0);
+}
+/* The rest of the CSS from the snippet goes here */
